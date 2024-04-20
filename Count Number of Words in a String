@@ -1,0 +1,8 @@
+public class WordCount {
+    public static void main(String[] args) {
+        String str = "This is a sample string";
+        String[] words = str.split("\\s+");
+        int wordCount = words.length;
+        System.out.println("Number of words: " + wordCount);
+    }
+}
